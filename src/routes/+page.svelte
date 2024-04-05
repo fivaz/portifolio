@@ -1,35 +1,42 @@
 <script>
 	import GithubIcon from '$lib/GithubIcon.svelte';
+	import Highlight from '$lib/Highlight.svelte';
 	import LinkedinIcon from '$lib/LinkedinIcon.svelte';
-	import LiquidCircle from '$lib/LiquidCircle.svelte';
-	import profile from '$lib/assets/profile.jpeg';
+	import LiquidAvatar from '$lib/LiquidImage.svelte';
 
 	import Navbar from './Navbar.svelte';
 </script>
 
 <Navbar />
 
-<main class="bg-gray-50 h-screen mt-16">
-	<h1>Hi, I'm Stefane Fivaz</h1>
+<main class="bg-gray-50 p-5 flex flex-col gap-5 items-center">
+	<div class="w-80 h-80">
+		<LiquidAvatar />
+	</div>
+
+	<h1 class="text-5xl text-center font-bold">Hi, I'm Stefane Fivaz 👋</h1>
 	<h3>
-		A versatile software engineer with a Bachelor of Science in Business Information Technology,
-		demonstrating expertise across the entire software development lifecycle. Proficient in
-		front-end and back-end technologies, with a sharp focus on user experience and a commitment to
-		producing clean, maintainable code.
+		A versatile software engineer proficient in <Highlight>front-end</Highlight> and
+		<Highlight>back-end</Highlight> technologies, with a sharp focus on <Highlight>
+			user experience
+		</Highlight>
+		and a commitment to producing <Highlight>clean, maintainable code</Highlight>.
 	</h3>
 	<div class="flex">
 		<LinkedinIcon />
 		<GithubIcon />
 	</div>
-	<LiquidCircle>
-		<img alt="profile" src={profile} />
-	</LiquidCircle>
-	<div>
-		<h2>Tech Stack</h2>
-		<div>
+	<div class="flex flex-col items-center gap-3">
+		<h2 class="text-lg font-semibold">Tech Stack</h2>
+		<div class="flex flex-col gap-3 items-center">
+			<img alt="tech stack" src="https://skillicons.dev/icons?i=html,css,js,ts" />
 			<img
 				alt="tech stack"
-				src="https://skillicons.dev/icons?i=html,css,js,ts,react,svelte,vue,angular,next,python,nodejs,firebase,aws,docker"
+				src="https://skillicons.dev/icons?i=react,svelte,vue,angular,java,python"
+			/>
+			<img
+				alt="tech stack"
+				src="https://skillicons.dev/icons?i=nodejs,firebase,aws,mongodb,postgres"
 			/>
 		</div>
 	</div>

@@ -5,14 +5,14 @@
 	import LiquidAvatar from '$lib/LiquidImage.svelte';
 </script>
 
-<section class="p-5 flex flex-col gap-5 items-center bg-gray-50 md:w-[880px] md:justify-center">
-	<div class="flex gap-5 flex-col md:flex-row-reverse items-center">
+<section class="flex flex-col items-center gap-5 bg-gray-50 p-5 md:w-[880px] md:justify-center">
+	<div class="flex flex-col items-center gap-5 md:flex-row-reverse">
 		<div class="max-w-80">
 			<LiquidAvatar />
 		</div>
 
-		<div class="flex flex-col gap-5 items-center">
-			<h1 class="text-5xl text-center font-bold">
+		<div class="flex flex-col items-center gap-5">
+			<h1 class="text-center text-5xl font-bold">
 				Hi, I'm <Highlight>Stefane Fivaz</Highlight> 👋
 			</h1>
 
@@ -44,7 +44,7 @@
 
 	<div class="flex flex-col items-center gap-3">
 		<h2 class="text-lg font-semibold">Tech Stack</h2>
-		<div class="flex flex-col lg:flex-row gap-3 md:gap-2 items-center">
+		<div class="flex flex-col items-center gap-3 md:gap-2 lg:flex-row">
 			<img alt="tech stack" src="https://skillicons.dev/icons?i=html,css,js,ts,react" />
 			<img
 				alt="tech stack"

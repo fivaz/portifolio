@@ -1,13 +1,11 @@
 <script>
-	import Button from '$lib/Button.svelte';
-	import scrumFlowImage1 from '$lib/assets/scrum-flow-1.png';
 	import scrumFlowImage2 from '$lib/assets/scrum-flow-2.png';
 </script>
 
-<section class="bg-white w-full">
-	<h1 class="text-3xl font-bold text-center my-5">Projects</h1>
+<section class="w-full bg-white">
+	<h1 class="my-5 text-center text-3xl font-bold">Projects</h1>
 
-	<div class="md:w-[880px] m-auto border rounded-lg">
+	<div class="m-auto rounded-lg border md:w-[880px]">
 		<div class="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
 			<div class="absolute inset-0 -z-10 overflow-hidden">
 				<svg
@@ -58,7 +56,7 @@
 							<div>
 								<img
 									alt="tech stack"
-									class="mt-5 m-auto h-8"
+									class="m-auto mt-5 h-8"
 									src="https://skillicons.dev/icons?i=react,ts,next,tailwind,python,postgres"
 								/>
 							</div>
@@ -169,12 +167,12 @@
 							<h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">
 								Got interested ?
 							</h2>
-							<p class="mt-6 mb-3">
+							<p class="mb-3 mt-6">
 								Explore the detailed documentation (in French) and try out the live demo
 							</p>
 							<div class="flex gap-3">
 								<a
-									class="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold border border-indigo-600 text-indigo-600 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+									class="rounded-md border border-indigo-600 bg-white px-2.5 py-1.5 text-sm font-semibold text-indigo-600 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
 									href="https://scrum-flow-thesis.sfivaz.com"
 									target="_blank"
 								>

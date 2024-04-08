@@ -1,3 +1,3 @@
-<span class="font-semibold hover:text-purple-700 decoration-2">
+<span class="font-semibold decoration-2 hover:text-purple-700">
 	<slot />
 </span>

@@ -2,10 +2,10 @@
 	import profile from '$lib/assets/profile.jpeg';
 </script>
 
-<div class="liquid-avatar border-4 border-purple-600 w-full h-auto aspect-square overflow-hidden">
+<div class="liquid-avatar aspect-square h-auto w-full overflow-hidden border-4 border-purple-600">
 	<img
 		alt="profile"
-		class="relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+		class="relative left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
 		src={profile}
 	/>
 </div>

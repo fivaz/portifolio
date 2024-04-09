@@ -2,6 +2,7 @@
 	import HomeSection from './HomeSection.svelte';
 	import Navbar from './Navbar.svelte';
 	import ProjectsSection from './ProjectsSection.svelte';
+	import Resume from './Resume.svelte';
 </script>
 
 <div class="relative">
@@ -11,6 +12,6 @@
 
 		<ProjectsSection />
 
-		<section class='h-96' id='resume'></section>
+		<Resume/>
 	</main>
 </div>

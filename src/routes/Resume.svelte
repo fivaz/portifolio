@@ -14,11 +14,11 @@
 			<Icon class='h-6 w-6' src={ArrowDownCircle} />
 		</a>
 
-		<object data={resume} height="1000px" title='resume' type="application/pdf" width="100%">
-			<p>Unable to display PDF file. <a href={resume}>Download</a> instead.</p>
-		</object>
+<!--		<object data={resume} height="1000px" title='resume' type="application/pdf" width="100%">-->
+<!--			<p>Unable to display PDF file. Download instead.</p>-->
+<!--		</object>-->
 
-<!--		<iframe allow="autoplay" height='1000px' src="https://drive.google.com/file/d/1HWpsfE5a272wi1O3ZCV7_nprjKYC6cdO/preview" title='resume' width='100%'></iframe>-->
+		<iframe allow="autoplay" height='1000px' src="https://drive.google.com/file/d/1HWpsfE5a272wi1O3ZCV7_nprjKYC6cdO/preview" title='resume' width='100%'/>
 
 	</div>
 </section>

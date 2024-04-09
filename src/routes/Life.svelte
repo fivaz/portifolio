@@ -88,7 +88,7 @@
 				class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
 				src={life3Image}
 			/>
-			<div class="absolute right-32 top-20 w-80">
+			<div class="md:absolute right-32 top-20 sm:w-full md:w-56 lg:w-72">
 				<PhoneFrame>
 					<img alt="screen of the app mobile" class="w-full" src={lifeMobileImage} />
 				</PhoneFrame>
@@ -99,13 +99,13 @@
 		</div>
 	</div>
 
-	<div class="relative mx-auto mt-32 max-w-7xl px-6 lg:px-8">
+	<div class="relative mx-auto mt-12 md:mt-32 max-w-7xl px-6 lg:px-8">
 		<h2 class="text-center text-3xl font-medium tracking-tight text-gray-900">
 			Some of the features
 		</h2>
 
 		<ul
-			class="mx-auto grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
+			class="mx-auto grid max-w-2xl grid-cols-1 gap-6 text-sm mt-6 sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
 			role="list"
 		>
 			{#each features as feature (feature.name)}

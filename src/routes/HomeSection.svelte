@@ -59,7 +59,7 @@
 		</div>
 	</div>
 
-	<a class='absolute bottom-4 animate-bounce bg-white p-2 w-10 h-10 ring-1 ring-slate-900/5 border-1 border-indigo-600 text-indigo-600 shadow-lg rounded-full flex items-center hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' href='#projects'>
+	<a class='hidden md:flex animate-bounce absolute bottom-4 bg-white p-2 w-10 h-10 ring-1 ring-slate-900/5 border-1 border-indigo-600 text-indigo-600 shadow-lg rounded-full items-center hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' href='#projects'>
 		<Icon class='h-10 w-10' src={ArrowDown}/>
 	</a>
 

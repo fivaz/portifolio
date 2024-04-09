@@ -3,9 +3,11 @@
 	import Highlight from '$lib/Highlight.svelte';
 	import LinkedinIcon from '$lib/LinkedinIcon.svelte';
 	import LiquidAvatar from '$lib/LiquidImage.svelte';
+	import { ArrowDown } from '@steeze-ui/heroicons';
+	import { Icon } from '@steeze-ui/svelte-icon';
 </script>
 
-<section class="flex flex-col items-center gap-5 bg-gray-50 p-5 md:w-[880px] md:justify-center scroll-mt-16" id='home'>
+<section class="relative flex flex-col items-center gap-5 bg-gray-50 p-5 md:w-[880px] md:justify-center scroll-mt-16" id='home'>
 	<div class="flex flex-col items-center gap-5 md:flex-row-reverse">
 		<div class="max-w-80">
 			<LiquidAvatar />
@@ -56,6 +58,11 @@
 			/>
 		</div>
 	</div>
+
+	<a class='absolute bottom-4 animate-bounce bg-white p-2 w-10 h-10 ring-1 ring-slate-900/5 border-1 border-indigo-600 text-indigo-600 shadow-lg rounded-full flex items-center hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' href='#projects'>
+		<Icon class='h-10 w-10' src={ArrowDown}/>
+	</a>
+
 </section>
 
 <style>

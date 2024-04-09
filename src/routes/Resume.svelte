@@ -7,6 +7,7 @@
 <section class='flex w-full flex-col gap-10 bg-white scroll-mt-16 items-center' id='resume'>
 	<h1 class='text-center text-3xl font-bold'>Resume</h1>
 	<div class='container px-4 sm:px-6 lg:px-8 flex flex-col items-center gap-10 mb-20'>
+		<p>Soon...</p>
 <!--		<a-->
 <!--			class='inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'-->
 <!--			download href={resume}>-->

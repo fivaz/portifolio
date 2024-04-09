@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import mainIcon from '$lib/assets/mainIcon-60x60.webp'
 	import { slide } from 'svelte/transition';
 
 	let isMobileMenuOpen = false;
@@ -67,7 +68,7 @@
 			</div>
 			<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 				<div class="flex flex-shrink-0 items-center">
-					<span class="text-2xl font-extrabold">Fivaz</span>
+					<img alt='main Icon' class='h-16' src={mainIcon}>
 				</div>
 			</div>
 			<div

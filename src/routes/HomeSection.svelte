@@ -5,7 +5,7 @@
 	import LiquidAvatar from '$lib/LiquidImage.svelte';
 </script>
 
-<section class="flex flex-col items-center gap-5 bg-gray-50 p-5 md:w-[880px] md:justify-center">
+<section class="flex flex-col items-center gap-5 bg-gray-50 p-5 md:w-[880px] md:justify-center scroll-mt-16" id='home'>
 	<div class="flex flex-col items-center gap-5 md:flex-row-reverse">
 		<div class="max-w-80">
 			<LiquidAvatar />

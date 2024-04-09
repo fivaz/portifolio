@@ -6,7 +6,7 @@
 
 <div class="relative">
 	<Navbar />
-	<main class="flex flex-col items-center bg-gray-50 pt-16" id='home'>
+	<main class="flex flex-col items-center bg-gray-50 pt-16">
 		<HomeSection />
 
 		<ProjectsSection />

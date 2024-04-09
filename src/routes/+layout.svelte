@@ -2,4 +2,8 @@
 	import '../app.css';
 </script>
 
-<slot />
+<html class='scroll-smooth' lang='en'>
+<body>
+	<slot />
+</body>
+</html>

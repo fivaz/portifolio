@@ -84,13 +84,6 @@
 					</a>
 					<a
 						class="inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium
-{hash === '#about' ? currentLink : defaultLink}"
-						href="#about"
-					>
-						About
-					</a>
-					<a
-						class="inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium
 {hash === '#projects' ? currentLink : defaultLink}"
 						href="#projects"
 					>
@@ -98,10 +91,10 @@
 					</a>
 					<a
 						class="inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium
-{hash === '#contact' ? currentLink : defaultLink}"
-						href="#contact"
+{hash === '#resume' ? currentLink : defaultLink}"
+						href="#resume"
 					>
-						Contact
+						Resume
 					</a>
 				</div>
 			</div>
@@ -122,13 +115,6 @@
 				</a>
 				<a
 					class="block border-l-4 py-2 pl-3 pr-4 text-base font-medium
-{hash === '#about' ? mobileCurrentLink : mobileDefaultLink}"
-					href="#about"
-				>
-					About
-				</a>
-				<a
-					class="block border-l-4 py-2 pl-3 pr-4 text-base font-medium
 {hash === '#projects' ? mobileCurrentLink : mobileDefaultLink}"
 					href="#projects"
 				>
@@ -136,10 +122,10 @@
 				</a>
 				<a
 					class="block border-l-4 py-2 pl-3 pr-4 text-base font-medium
-{hash === '#contact' ? mobileCurrentLink : mobileDefaultLink}"
-					href="#contact"
+{hash === '#resume' ? mobileCurrentLink : mobileDefaultLink}"
+					href="#resume"
 				>
-					Contact
+					Resume
 				</a>
 			</div>
 		</div>

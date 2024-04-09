@@ -1,5 +1,5 @@
 <script lang="ts">
-	import profile from '$lib/assets/profile.jpeg';
+	import profile from '$lib/assets/profile.webp';
 </script>
 
 <div class="liquid-avatar aspect-square h-auto w-full overflow-hidden border-4 border-purple-600">
@@ -7,7 +7,7 @@
 		alt="profile"
 		class="relative left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
 		src={profile}
-	/>
+	>
 </div>
 
 <style>

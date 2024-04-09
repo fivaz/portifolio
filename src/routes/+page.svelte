@@ -12,6 +12,6 @@
 
 		<ProjectsSection />
 
-		<Resume/>
+		<Resume />
 	</main>
 </div>

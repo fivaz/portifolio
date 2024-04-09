@@ -7,7 +7,10 @@
 	import { Icon } from '@steeze-ui/svelte-icon';
 </script>
 
-<section class="relative flex flex-col items-center gap-5 bg-gray-50 p-5 md:w-[880px] md:justify-center scroll-mt-16" id='home'>
+<section
+	class="relative flex scroll-mt-16 flex-col items-center gap-5 bg-gray-50 p-5 md:w-[880px] md:justify-center"
+	id="home"
+>
 	<div class="flex flex-col items-center gap-5 md:flex-row-reverse">
 		<div class="max-w-80">
 			<LiquidAvatar />
@@ -59,10 +62,12 @@
 		</div>
 	</div>
 
-	<a class='hidden md:flex animate-bounce absolute bottom-4 bg-white p-2 w-10 h-10 ring-1 ring-slate-900/5 border-1 border-indigo-600 text-indigo-600 shadow-lg rounded-full items-center hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' href='#projects'>
-		<Icon class='h-10 w-10' src={ArrowDown}/>
+	<a
+		class="border-1 absolute bottom-4 hidden h-10 w-10 animate-bounce items-center rounded-full border-indigo-600 bg-white p-2 text-indigo-600 shadow-lg ring-1 ring-slate-900/5 hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 md:flex"
+		href="#projects"
+	>
+		<Icon class="h-10 w-10" src={ArrowDown} />
 	</a>
-
 </section>
 
 <style>

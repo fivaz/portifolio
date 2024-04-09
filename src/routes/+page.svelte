@@ -1,6 +1,5 @@
 <script>
-	
-import HomeSection from './HomeSection.svelte';
+	import HomeSection from './HomeSection.svelte';
 	import Navbar from './Navbar.svelte';
 	import ProjectsSection from './ProjectsSection.svelte';
 </script>

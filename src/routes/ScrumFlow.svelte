@@ -51,16 +51,16 @@
 							<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
 								Scrum Flow
 							</h1>
-							<p class="mt-6 text-xl leading-8 text-gray-700">
-								Web application designed to enhance Scrum project management within Jira.
-							</p>
 							<div>
 								<img
 									alt="tech stack"
-									class="m-auto mt-5 h-8"
+									class="m-auto mt-5 h-10"
 									src="https://skillicons.dev/icons?i=react,ts,next,tailwind,python,postgres"
 								/>
 							</div>
+							<p class="mt-6 text-xl leading-8 text-gray-700">
+								Web application designed to enhance Scrum project management within Jira.
+							</p>
 						</div>
 					</div>
 				</div>

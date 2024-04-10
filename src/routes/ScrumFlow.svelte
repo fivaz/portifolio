@@ -55,7 +55,7 @@
 								<img
 									alt="tech stack"
 									class="m-auto mt-5 h-10"
-									loading='lazy'
+									loading="lazy"
 									src="https://skillicons.dev/icons?i=react,ts,next,tailwind,python,postgres"
 								/>
 							</div>
@@ -71,7 +71,7 @@
 					<img
 						alt="scrum flow screen"
 						class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-						loading='lazy'
+						loading="lazy"
 						src={scrumFlowImage2}
 					/>
 				</div>

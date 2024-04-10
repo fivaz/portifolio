@@ -8,7 +8,7 @@
 </script>
 
 <section
-	class="relative flex scroll-mt-16 flex-col items-center gap-5 bg-gray-50 p-5 md:w-[880px] md:justify-center"
+	class="relative flex scroll-mt-16 flex-col items-center gap-5 bg-gray-50 p-5 md:w-[768px] md:justify-center lg:w-[880px]"
 	id="home"
 >
 	<div class="flex flex-col items-center gap-5 md:flex-row-reverse">
@@ -16,21 +16,18 @@
 
 		<div class="flex flex-col items-center gap-5">
 			<h1 class="text-center text-5xl font-bold">
-				Hi, I'm
-				<Highlight>Stefane Fivaz</Highlight>
+				Hi, I'm <Highlight>Stefane Fivaz</Highlight>
 				👋
 			</h1>
 
 			<p>
-				Versatile software engineer with a BS in Business IT and more than 7 years with development,
-				demonstrating expertise across the entire software development lifecycle, with a sharp focus
-				on user experience and a commitment to producing clean, maintainable code.
+				A versatile software engineer with a
+				<Highlight>Bachelor of Science in Business IT</Highlight> and
+				<Highlight>more than 7 years of experience</Highlight> with development, proficient in
+				<Highlight>front-end</Highlight> and <Highlight>back-end</Highlight> technologies, with a sharp
+				focus on <Highlight>user experience</Highlight> and a commitment to producing
+				<Highlight>clean</Highlight>, <Highlight>maintainable code</Highlight>.
 			</p>
-
-			<h3>
-				A versatile software engineer proficient in front-end and back-end technologies, with a
-				sharp focus on user experience and a commitment to producing clean, maintainable code.
-			</h3>
 
 			<div class="flex gap-3">
 				<Highlight>
@@ -49,13 +46,11 @@
 
 	<div class="flex flex-col items-center gap-3">
 		<h2 class="text-lg font-semibold">Tech Stack</h2>
-		<div class="flex flex-col items-center gap-3 md:gap-2 lg:flex-row">
-			<img alt="tech stack" src="https://skillicons.dev/icons?i=html,css,js,ts,react" />
-			<img alt="tech stack" src="https://skillicons.dev/icons?i=svelte,vue,angular,nodejs,python" />
-			<img
-				alt="tech stack"
-				src="https://skillicons.dev/icons?i=firebase,aws,mongodb,postgres,docker"
-			/>
+		<div class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-4">
+			<img alt="tech stack" src="https://skillicons.dev/icons?i=html,css,js,ts" />
+			<img alt="tech stack" src="https://skillicons.dev/icons?i=react,svelte,vue,angular" />
+			<img alt="tech stack" src="https://skillicons.dev/icons?i=nodejs,python,php,firebase" />
+			<img alt="tech stack" src="https://skillicons.dev/icons?i=mongodb,postgres,aws,docker" />
 		</div>
 	</div>
 

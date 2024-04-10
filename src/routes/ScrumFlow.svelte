@@ -121,7 +121,7 @@
 								</li>
 							</ul>
 							<h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-								Got interested ?
+								Interested in trying it out?
 							</h2>
 							<p class="mb-3 mt-6">
 								Explore the detailed documentation (in French) and try out the live demo

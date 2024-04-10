@@ -2,22 +2,20 @@
 	import profile from '$lib/assets/profile.webp';
 </script>
 
-<div class="liquid-avatar aspect-square h-auto w-full overflow-hidden border-4 border-purple-600">
-	<img
-		alt="profile"
-		class="relative left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
-		src={profile}
-	/>
+<div
+	class="liquid-avatar flex aspect-square h-auto w-80 flex-shrink-0 items-center justify-center overflow-hidden border-4 border-purple-600"
+>
+	<img alt="profile" src={profile} />
 </div>
 
 <style>
 	.liquid-avatar {
-		animation: morph 8s ease-in-out infinite;
+		animation: liquid 8s ease-in-out infinite;
 		transition: all 1s ease-in-out;
 		border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
 	}
 
-	@keyframes morph {
+	@keyframes liquid {
 		0% {
 			border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
 		}

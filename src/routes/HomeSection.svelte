@@ -12,13 +12,11 @@
 	id="home"
 >
 	<div class="flex flex-col items-center gap-5 md:flex-row-reverse">
-		<div class="max-w-80">
-			<LiquidAvatar />
-		</div>
+		<LiquidAvatar />
 
 		<div class="flex flex-col items-center gap-5">
 			<h1 class="text-center text-5xl font-bold">
-				Hi, I'm <Highlight>Stefane Fivaz</Highlight> 👋
+				Hi, I'm <Highlight>Stefane Fivaz</Highlight>👋
 			</h1>
 
 			<h3>

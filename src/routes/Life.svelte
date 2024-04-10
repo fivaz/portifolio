@@ -49,28 +49,29 @@
 <div class="bg-white pb-24 pt-14 sm:pb-32 sm:pt-14">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-			<p class="text-base font-semibold leading-7 text-indigo-600">Day planer</p>
+			<p class="text-base font-semibold leading-7 text-indigo-600">Day Planner</p>
 			<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Life</h1>
 			<div class="mt-5 flex h-10 gap-2">
 				<LifeTechStackIcons />
 				<PwaIcon class="h-10 w-10 rounded-lg bg-gray-200 p-1" />
 			</div>
 			<p class="mt-6 text-xl leading-8 text-gray-700">
-				A sophisticated Day Planner fully responsive offline-first web application
+				A sophisticated, fully responsive, offline-first web application for day planning
 			</p>
 
 			<div
 				class="mt-6 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2"
 			>
 				<p>
-					Featuring an aesthetically pleasing calendar design, providing an intuitive and visually
-					appealing user experience. Built with <strong>Svelte</strong>, showcasing my ability to
-					excel in a framework with a growing ecosystem.
+					Life is an elegant web app boasting a visually stunning calendar design. With its
+					intuitive interface and seamless navigation, users effortlessly manage their schedules and
+					tasks to reach goals faster.
 				</p>
 				<p>
-					This project highlights my skill in maximizing language capabilities without relying
-					heavily on third-party libraries. Moreover, Life exemplifies my proficiency in frontend
-					development, user interface design, and seamless integration with cloud services.
+					Developed with Svelte, showcasing proficiency with small framework ecosystems, it
+					underscores my prowess in frontend development. Furthermore, it demonstrates adeptness in
+					user interface design and integration of cloud services, reflecting a holistic skill set
+					in crafting engaging digital experiences.
 				</p>
 			</div>
 		</div>
@@ -109,8 +110,7 @@
 					{#if isIconSource(feature.icon)}
 						<Icon class="h-8 w-8 text-indigo-600" src={feature.icon} />
 					{:else}
-						<svelte:component class="h-8 w-8 fill-indigo-600" this={feature.icon} />
-						<!--						<img class='h-8 w-8 text-indigo-600' src={noInternet} />-->
+						<svelte:component this={feature.icon} class="h-8 w-8 fill-indigo-600" />
 					{/if}
 					<h3 class="mt-6 font-semibold text-gray-900">
 						{feature.name}
@@ -120,7 +120,7 @@
 			{/each}
 
 			<li class="rounded-2xl border border-gray-200 p-8">
-				<h2 class="text-2xl font-bold tracking-tight text-gray-900">Got interested ?</h2>
+				<h2 class="text-2xl font-bold tracking-tight text-gray-900">Got interested?</h2>
 				<p class="mb-3 mt-6">Explore the live demo and delve into the codebase on GitHub.</p>
 				<div class="flex gap-3">
 					<a

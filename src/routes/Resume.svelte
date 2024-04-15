@@ -1,5 +1,5 @@
 <script lang="ts">
-	import resume from '$lib/assets/resume.pdf';
+	import { PUBLIC_RESUME_DRIVE_ID } from '$env/static/public';
 	import { ArrowDownCircle } from '@steeze-ui/heroicons';
 	import { Icon } from '@steeze-ui/svelte-icon';
 </script>
@@ -10,20 +10,16 @@
 		<a
 			class="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 			download
-			href={resume}
+			href={`https://drive.google.com/uc?export=download&id=${PUBLIC_RESUME_DRIVE_ID}`}
 		>
 			Download
 			<Icon class="h-6 w-6" src={ArrowDownCircle} />
 		</a>
 
-		<!--		<object data={resume} height="1000px" title='resume' type="application/pdf" width="100%">-->
-		<!--			<p>Unable to display PDF file. Download instead.</p>-->
-		<!--		</object>-->
-
 		<iframe
 			allow="autoplay"
 			height="1000px"
-			src="https://drive.google.com/file/d/1HWpsfE5a272wi1O3ZCV7_nprjKYC6cdO/preview"
+			src={`https://drive.google.com/file/d/${PUBLIC_RESUME_DRIVE_ID}/preview`}
 			title="resume"
 			width="100%"
 		/>

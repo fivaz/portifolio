@@ -6,7 +6,7 @@
 	import OfflineIcon from '$lib/OfflineIcon.svelte';
 	import PhoneFrame from '$lib/PhoneFrame.svelte';
 	import PwaIcon from '$lib/PwaIcon.svelte';
-	import lifeDesktopImage from '$lib/assets/life-4.png';
+	import lifeDesktopImage from '$lib/assets/life-desktop.png';
 	import lifeMobileImage from '$lib/assets/life-mobile.png';
 	import { CalendarClock, Goal, PocketKnife } from '@steeze-ui/lucide-icons';
 	import { Icon, type IconSource } from '@steeze-ui/svelte-icon';

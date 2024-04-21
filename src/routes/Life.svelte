@@ -6,7 +6,7 @@
 	import OfflineIcon from '$lib/OfflineIcon.svelte';
 	import PhoneFrame from '$lib/PhoneFrame.svelte';
 	import PwaIcon from '$lib/PwaIcon.svelte';
-	import life3Image from '$lib/assets/life-4.png';
+	import lifeDesktopImage from '$lib/assets/life-4.png';
 	import lifeMobileImage from '$lib/assets/life-mobile.png';
 	import { CalendarClock, Goal, PocketKnife } from '@steeze-ui/lucide-icons';
 	import { Icon, type IconSource } from '@steeze-ui/svelte-icon';
@@ -83,7 +83,7 @@
 				alt="screen of the app desktop"
 				class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
 				loading="lazy"
-				src={life3Image}
+				src={lifeDesktopImage}
 			/>
 			<div class="right-32 top-20 sm:w-full md:absolute md:w-56 lg:w-72">
 				<PhoneFrame>

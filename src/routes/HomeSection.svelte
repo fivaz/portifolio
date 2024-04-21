@@ -2,7 +2,7 @@
 	import GithubIcon from '$lib/GithubIcon.svelte';
 	import Highlight from '$lib/Highlight.svelte';
 	import LinkedinIcon from '$lib/LinkedinIcon.svelte';
-	import LiquidAvatar from '$lib/LiquidImage.svelte';
+	import LiquidAvatar from '$lib/LiquidAvatar.svelte';
 	import { ArrowDown } from '@steeze-ui/heroicons';
 	import { Icon } from '@steeze-ui/svelte-icon';
 </script>

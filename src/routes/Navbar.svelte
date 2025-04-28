@@ -3,7 +3,7 @@
 	import mainIcon from '$lib/assets/mainIcon-60x60.webp';
 	import { slide } from 'svelte/transition';
 
-	let isMobileMenuOpen = false;
+	let isMobileMenuOpen = $state(false);
 
 	const mobileCurrentLink = 'border-indigo-500 text-indigo-700 bg-indigo-50';
 
@@ -13,7 +13,7 @@
 
 	const mobileDefaultLink = `${defaultLink} hover:bg-gray-50`;
 
-	$: hash = $page.url.hash;
+	let hash = $derived($page.url.hash);
 </script>
 
 <nav class="fixed left-0 right-0 top-0 z-10 bg-white shadow">
@@ -25,7 +25,7 @@
 					aria-controls="mobile-menu"
 					aria-expanded="false"
 					class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-					on:click={() => (isMobileMenuOpen = !isMobileMenuOpen)}
+					onclick={() => (isMobileMenuOpen = !isMobileMenuOpen)}
 					type="button"
 				>
 					<span class="absolute -inset-0.5"></span>

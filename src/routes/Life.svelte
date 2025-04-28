@@ -110,7 +110,7 @@
 					{#if isIconSource(feature.icon)}
 						<Icon class="h-8 w-8 text-indigo-600" src={feature.icon} />
 					{:else}
-						<svelte:component this={feature.icon} class="h-8 w-8 fill-indigo-600" />
+						<feature.icon class="h-8 w-8 fill-indigo-600" />
 					{/if}
 					<h3 class="mt-6 font-semibold text-gray-900">
 						{feature.name}

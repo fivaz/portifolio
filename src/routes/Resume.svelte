@@ -22,6 +22,6 @@
 			src={`https://drive.google.com/file/d/${PUBLIC_RESUME_DRIVE_ID}/preview`}
 			title="resume"
 			width="100%"
-		/>
+		></iframe>
 	</div>
 </section>

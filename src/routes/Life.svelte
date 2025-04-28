@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ComponentType } from 'svelte';
+	import type { Component } from 'svelte';
 
 	import FlashIcon from '$lib/FlashIcon.svelte';
 	import LifeTechStackIcons from '$lib/LifeTechStackIcons.svelte';
@@ -8,10 +8,9 @@
 	import PwaIcon from '$lib/PwaIcon.svelte';
 	import lifeDesktopImage from '$lib/assets/life-desktop.png';
 	import lifeMobileImage from '$lib/assets/life-mobile.png';
-	import { CalendarClock, Goal, PocketKnife } from '@steeze-ui/lucide-icons';
-	import { Icon, type IconSource } from '@steeze-ui/svelte-icon';
+	import { CalendarClock, Goal, PocketKnife } from '@lucide/svelte';
 
-	const features: Array<{ description: string; icon: ComponentType | IconSource; name: string }> = [
+	const features: Array<{ description: string; icon: Component; name: string }> = [
 		{
 			description: 'A user-friendly interface with resizable and drag-and-dropable events.',
 			icon: FlashIcon,
@@ -40,10 +39,6 @@
 			name: 'Recurring Events',
 		},
 	];
-
-	function isIconSource(icon: ComponentType | IconSource): icon is IconSource {
-		return 'default' in icon;
-	}
 </script>
 
 <div class="bg-white pb-24 pt-14 sm:pb-32 sm:pt-14">
@@ -106,12 +101,9 @@
 			role="list"
 		>
 			{#each features as feature (feature.name)}
+				{@const Icon = feature.icon}
 				<li class="rounded-2xl border border-gray-200 p-8">
-					{#if isIconSource(feature.icon)}
-						<Icon class="h-8 w-8 text-indigo-600" src={feature.icon} />
-					{:else}
-						<feature.icon class="h-8 w-8 fill-indigo-600" />
-					{/if}
+					<Icon class="h-8 w-8 fill-indigo-600" />
 					<h3 class="mt-6 font-semibold text-gray-900">
 						{feature.name}
 					</h3>

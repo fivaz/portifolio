@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { PUBLIC_RESUME_DRIVE_ID } from '$env/static/public';
-	import { ArrowDownCircle } from '@steeze-ui/heroicons';
-	import { Icon } from '@steeze-ui/svelte-icon';
+	import { ArrowDownCircle } from '@lucide/svelte';
 </script>
 
 <section class="flex w-full scroll-mt-16 flex-col items-center gap-10 bg-white" id="resume">
@@ -13,7 +12,7 @@
 			href={`https://drive.google.com/uc?export=download&id=${PUBLIC_RESUME_DRIVE_ID}`}
 		>
 			Download
-			<Icon class="h-6 w-6" src={ArrowDownCircle} />
+			<ArrowDownCircle class="size-6" />
 		</a>
 
 		<iframe

@@ -1,8 +1,6 @@
 <script>
 	import scrumFlowImage2 from '$lib/assets/scrum-flow-2.png';
-	import { WrenchScrewdriver } from '@steeze-ui/heroicons';
-	import { Brain, ChartArea, Target } from '@steeze-ui/lucide-icons';
-	import { Icon } from '@steeze-ui/svelte-icon';
+	import { Brain, ChartArea, Target, Wrench } from '@lucide/svelte';
 </script>
 
 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -82,7 +80,7 @@
 						<div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
 							<ul class="mt-8 space-y-8 text-gray-600" role="list">
 								<li class="flex gap-x-3">
-									<Icon class="mt-1 h-5 w-5 flex-none text-indigo-600" src={WrenchScrewdriver} />
+									<Wrench class="mt-1 size-5 flex-none text-indigo-600" />
 									<span>
 										<strong class="font-semibold text-gray-900">No Setup.</strong>
 										Seamlessly integrated with Jira Software through Atlassian OAuth, automatically handling
@@ -90,7 +88,7 @@
 									</span>
 								</li>
 								<li class="flex gap-x-3">
-									<Icon class="mt-1 h-5 w-5 flex-none text-indigo-600" src={ChartArea} />
+									<ChartArea class="mt-1 size-5 flex-none text-indigo-600" />
 									<span>
 										<strong class="font-semibold text-gray-900">Visual analysis.</strong>
 										Features graphical representations illustrating the evolution of estimation maturity
@@ -98,7 +96,7 @@
 									</span>
 								</li>
 								<li class="flex gap-x-3">
-									<Icon class="mt-1 h-5 w-5 flex-none text-indigo-600" src={Target} />
+									<Target class="mt-1 size-5 flex-none text-indigo-600" />
 									<span>
 										<strong class="font-semibold text-gray-900">Accuracy estimation.</strong>
 										Provides insightful information on the accuracy of task estimates, proving particularly
@@ -108,10 +106,10 @@
 									</span>
 								</li>
 								<li class="flex gap-x-3">
-									<!--                                <div class="mt-1 h-5 w-5 flex-none text-indigo-600 fill-indigo-600">-->
+									<!--                                <div class="mt-1 size-5 flex-none text-indigo-600 fill-indigo-600">-->
 									<!--&lt;!&ndash;                                    <CreativeThinkingIcon/>&ndash;&gt;-->
 									<!--                                </div>-->
-									<Icon class="mt-1 h-5 w-5 flex-none text-indigo-600" src={Brain} />
+									<Brain class="mt-1 size-5 flex-none text-indigo-600" />
 									<span>
 										<strong class="font-semibold text-gray-900">Sprint Prediction.</strong>
 										Includes a predictive module employing Machine Learning and Data Analysis to forecast

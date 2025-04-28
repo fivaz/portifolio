@@ -3,8 +3,7 @@
 	import Highlight from '$lib/Highlight.svelte';
 	import LinkedinIcon from '$lib/LinkedinIcon.svelte';
 	import LiquidAvatar from '$lib/LiquidAvatar.svelte';
-	import { ArrowDown } from '@steeze-ui/heroicons';
-	import { Icon } from '@steeze-ui/svelte-icon';
+	import { ArrowDown } from '@lucide/svelte';
 </script>
 
 <section
@@ -55,10 +54,10 @@
 	</div>
 
 	<a
-		class="border-1 absolute bottom-4 hidden h-10 w-10 animate-bounce items-center rounded-full border-indigo-600 bg-white p-2 text-indigo-600 shadow-lg ring-1 ring-slate-900/5 hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 md:flex"
+		class="border-1 absolute bottom-4 hidden size-10 animate-bounce items-center rounded-full border-indigo-600 bg-white p-2 text-indigo-600 shadow-lg ring-1 ring-slate-900/5 hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 md:flex"
 		href="#projects"
 	>
-		<Icon class="h-10 w-10" src={ArrowDown} />
+		<ArrowDown class="size-10" />
 	</a>
 </section>
 

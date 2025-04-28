@@ -1,7 +1,7 @@
 <script>
 	import scrumFlowImage2 from '$lib/assets/scrum-flow-2.png';
 	import { WrenchScrewdriver } from '@steeze-ui/heroicons';
-	import { AreaChart, Brain, Target } from '@steeze-ui/lucide-icons';
+	import { Brain, ChartArea, Target } from '@steeze-ui/lucide-icons';
 	import { Icon } from '@steeze-ui/svelte-icon';
 </script>
 
@@ -90,7 +90,7 @@
 									</span>
 								</li>
 								<li class="flex gap-x-3">
-									<Icon class="mt-1 h-5 w-5 flex-none text-indigo-600" src={AreaChart} />
+									<Icon class="mt-1 h-5 w-5 flex-none text-indigo-600" src={ChartArea} />
 									<span>
 										<strong class="font-semibold text-gray-900">Visual analysis.</strong>
 										Features graphical representations illustrating the evolution of estimation maturity

@@ -7,7 +7,7 @@
 </script>
 
 <svg
-	class={className}
+	class="{className} fill-indigo-600"
 	version="1.1"
 	viewBox="0 0 24 24"
 	xml:space="preserve"

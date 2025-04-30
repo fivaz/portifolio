@@ -103,7 +103,7 @@
 			{#each features as feature (feature.name)}
 				{@const Icon = feature.icon}
 				<li class="rounded-2xl border border-gray-200 p-8">
-					<Icon class="h-8 w-8 fill-indigo-600" />
+					<Icon class="h-8 w-8 text-indigo-600" />
 					<h3 class="mt-6 font-semibold text-gray-900">
 						{feature.name}
 					</h3>

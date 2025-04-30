@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import mainIcon from '$lib/assets/mainIcon-60x60.webp';
 	import { slide } from 'svelte/transition';
 
@@ -13,7 +13,7 @@
 
 	const mobileDefaultLink = `${defaultLink} hover:bg-gray-50`;
 
-	let hash = $derived($page.url.hash);
+	let hash = $derived(page.url.hash);
 </script>
 
 <nav class="fixed left-0 right-0 top-0 z-10 bg-white shadow">

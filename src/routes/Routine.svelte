@@ -1,5 +1,5 @@
 <script lang="ts">
-	import routineImage1 from '$lib/assets/routine-1.png';
+	import routineDiagram from '$lib/assets/routine-diagram.png';
 	import routineImage2 from '$lib/assets/routine-2.png';
 	import PhoneFrame from '$lib/PhoneFrame.svelte';
 	import SmallPhoneFrame from '$lib/SmallPhoneFrame.svelte';
@@ -18,10 +18,12 @@
 				<LifeTechStackIcons />
 				<PwaIcon class="h-10 w-10 rounded-lg bg-gray-200 p-1" />
 			</div>
-			<p>
+
+			<p class="mt-6 text-xl leading-8 text-gray-700">
 				A productivity mobile web app that helps users build focus-driven routines with countdowns,
 				real-time progress tracking, and AI-generated visuals
 			</p>
+
 			<h2>Key Technologies:</h2>
 			<p>React (TypeScript), Java (Spring Boot), Firebase, Gemini API, Recraft AI</p>
 			<p>Sentry, Docker, GitHub Actions, Swagger UI</p>
@@ -32,7 +34,10 @@
 			<p>📈 Performance graphs</p>
 			<p>🛠️ CI/CD with GitHub Actions & Docker</p>
 			<p>🧪 Error monitoring with Sentry</p>
+			<img src={routineDiagram} alt="diagram" />
 		</div>
+		<div></div>
+
 		<SmallPhoneFrame image={routineImage2} />
 	</div>
 </div>

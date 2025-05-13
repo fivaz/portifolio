@@ -41,7 +41,7 @@
 	];
 </script>
 
-<div class="bg-white pb-24 pt-14 sm:pb-32 sm:pt-14">
+<div class="rounded-lg border py-6 lg:py-8">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
 			<p class="text-base font-semibold leading-7 text-indigo-600">Day Planner</p>

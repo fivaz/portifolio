@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Life from './Life.svelte';
-	import ScrumFlow from './ScrumFlow.svelte';
+	import ScrumFlow from './scrum-flow/ScrumFlow.svelte';
 	import Routine from './Routine.svelte';
 	import Routine2 from './Routine2.svelte';
 </script>

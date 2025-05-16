@@ -5,6 +5,9 @@
 	import RoutineHeader from './RoutineHeader.svelte';
 	import ChessBackground from './ChessBackground.svelte';
 	import RoutineFooter from './RoutineFooter.svelte';
+	import ScrumFlowList from '../scrum-flow/ScrumFlowList.svelte';
+	import IphoneFrame from './IphoneFrame.svelte';
+	import RoutineList from './RoutineList.svelte';
 </script>
 
 <div class="rounded-lg border">
@@ -20,12 +23,7 @@
 			<div
 				class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
 			>
-				<img
-					alt="scrum flow screen"
-					class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-					loading="lazy"
-					src={scrumFlowImage2}
-				/>
+				<IphoneFrame />
 			</div>
 
 			<div
@@ -33,7 +31,7 @@
 			>
 				<div class="lg:pr-4">
 					<div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-						<!--						<ScrumFlowList />-->
+						<RoutineList />
 
 						<RoutineFooter />
 					</div>

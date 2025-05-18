@@ -1,6 +1,7 @@
 {
 	"dependencies": {
-		"@lucide/svelte": "^0.503.0"
+		"@lucide/svelte": "^0.503.0",
+		"medium-zoom": "^1.1.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",

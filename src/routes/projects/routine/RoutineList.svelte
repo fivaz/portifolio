@@ -22,6 +22,8 @@
 	import SwaggerIcon from '$lib/icons/SwaggerIcon.svelte';
 	import GitHubActionsIcon from '$lib/icons/GitHubActionsIcon.svelte';
 	import RecraftIcon from '$lib/icons/RecraftIcon.svelte';
+	import mediumZoom from 'medium-zoom';
+	import { onMount } from 'svelte';
 
 	const features = [
 		{
@@ -96,6 +98,10 @@
 			name: 'Swagger UI',
 		},
 	];
+
+	onMount(() => {
+		mediumZoom('[data-zoomable]');
+	});
 </script>
 
 {#snippet title(text: string)}
@@ -117,17 +123,19 @@
 
 	{@render title('Core Features:')}
 
-	<ul>
+	<ul class="flex flex-col gap-3">
 		{#each features as feature}
 			{@const Icon = feature.icon}
-			<li class="flex gap-x-3">
-				<Icon class="size-5 text-indigo-600" />
-				<span>{feature.description}</span>
+			<li class="flex items-center gap-x-3">
+				<span class="flex items-center justify-center rounded-lg bg-indigo-600 p-1">
+					<Icon class="size-5 text-white" />
+				</span>
+				<span class="">{feature.description}</span>
 			</li>
 		{/each}
 	</ul>
 
 	{@render title('How I built it:')}
 
-	<img src={routineDiagram} alt="diagram" />
+	<img src={routineDiagram} alt="diagram" data-zoomable />
 </div>

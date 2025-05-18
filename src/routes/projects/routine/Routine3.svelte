@@ -3,8 +3,8 @@
 	import routineImage2 from '$lib/assets/routine-2.png';
 	import PhoneFrame from '$lib/PhoneFrame.svelte';
 	import SmallPhoneFrame from '$lib/SmallPhoneFrame.svelte';
-	import PwaIcon from '$lib/PwaIcon.svelte';
-	import LifeTechStackIcons from '$lib/LifeTechStackIcons.svelte';
+	import PwaIcon from '$lib/icons/PwaIcon.svelte';
+	import LifeTechStackIcons from '$lib/icons/LifeTechStackIcons.svelte';
 </script>
 
 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

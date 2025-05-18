@@ -1,11 +1,11 @@
 <script lang="ts">
 	import type { Component } from 'svelte';
 
-	import FlashIcon from '$lib/FlashIcon.svelte';
-	import LifeTechStackIcons from '$lib/LifeTechStackIcons.svelte';
-	import OfflineIcon from '$lib/OfflineIcon.svelte';
+	import FlashIcon from '$lib/icons/FlashIcon.svelte';
+	import LifeTechStackIcons from '$lib/icons/LifeTechStackIcons.svelte';
+	import OfflineIcon from '$lib/icons/OfflineIcon.svelte';
 	import PhoneFrame from '$lib/PhoneFrame.svelte';
-	import PwaIcon from '$lib/PwaIcon.svelte';
+	import PwaIcon from '$lib/icons/PwaIcon.svelte';
 	import lifeDesktopImage from '$lib/assets/life-desktop.png';
 	import lifeMobileImage from '$lib/assets/life-mobile.png';
 	import { CalendarClock, Goal, PocketKnife } from '@lucide/svelte';

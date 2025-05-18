@@ -1,7 +1,7 @@
 <script>
-	import GithubIcon from '$lib/GithubIcon.svelte';
+	import GithubIcon from '$lib/icons/GithubIcon.svelte';
 	import Highlight from '$lib/Highlight.svelte';
-	import LinkedinIcon from '$lib/LinkedinIcon.svelte';
+	import LinkedinIcon from '$lib/icons/LinkedinIcon.svelte';
 	import LiquidAvatar from '$lib/LiquidAvatar.svelte';
 	import { ArrowDown } from '@lucide/svelte';
 </script>

@@ -1,5 +1,13 @@
+<script lang="ts">
+	interface Props {
+		class?: string;
+	}
+
+	let { class: className = '' }: Props = $props();
+</script>
+
 <svg
-	class="tabler-icon tabler-icon-brand-github"
+	class={className}
 	fill="none"
 	height="32"
 	stroke="currentColor"

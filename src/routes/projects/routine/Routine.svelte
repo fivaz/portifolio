@@ -3,7 +3,7 @@
 	import ChessBackground from './ChessBackground.svelte';
 	import RoutineFooter from './RoutineFooter.svelte';
 	import IphoneFrame from './IphoneFrame.svelte';
-	import RoutineList from './routine-list/RoutineList.svelte';
+	import RoutineList from './RoutineList.svelte';
 </script>
 
 <div class="rounded-lg border">

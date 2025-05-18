@@ -11,7 +11,17 @@
 		TimerIcon,
 		WorkflowIcon,
 	} from '@lucide/svelte';
-	import GithubActionsIcon from '../GithubActionsIcon.svelte';
+	import ReactIcon from '$lib/icons/ReactIcon.svelte';
+	import JavaIcon from '$lib/icons/JavaIcon.svelte';
+	import TypescriptIcon from '$lib/icons/TypescriptIcon.svelte';
+	import SpringIcon from '$lib/icons/SpringIcon.svelte';
+	import FirebaseIcon from '$lib/icons/FirebaseIcon.svelte';
+	import GeminiIcon from '$lib/icons/GeminiIcon.svelte';
+	import SentryIcon from '$lib/icons/SentryIcon.svelte';
+	import DockerIcon from '$lib/icons/DockerIcon.svelte';
+	import SwaggerIcon from '$lib/icons/SwaggerIcon.svelte';
+	import GitHubActionsIcon from '$lib/icons/GitHubActionsIcon.svelte';
+	import RecraftIcon from '$lib/icons/RecraftIcon.svelte';
 
 	const features = [
 		{
@@ -42,47 +52,47 @@
 
 	const technologies = [
 		{
-			icon: WorkflowIcon,
+			icon: ReactIcon,
 			name: 'React',
 		},
 		{
-			icon: WorkflowIcon,
+			icon: JavaIcon,
 			name: 'Java',
 		},
 		{
-			icon: WorkflowIcon,
-			name: 'React',
+			icon: TypescriptIcon,
+			name: 'Typescript',
 		},
 		{
-			icon: WorkflowIcon,
+			icon: SpringIcon,
 			name: 'Spring Boot',
 		},
 		{
-			icon: WorkflowIcon,
+			icon: FirebaseIcon,
 			name: 'Firebase',
 		},
 		{
-			icon: WorkflowIcon,
+			icon: GeminiIcon,
 			name: 'Gemini API',
 		},
 		{
-			icon: WorkflowIcon,
+			icon: RecraftIcon,
 			name: 'Recraft AI',
 		},
 		{
-			icon: WorkflowIcon,
+			icon: SentryIcon,
 			name: 'Sentry',
 		},
 		{
-			icon: WorkflowIcon,
+			icon: DockerIcon,
 			name: 'Docker',
 		},
 		{
-			icon: WorkflowIcon,
+			icon: GitHubActionsIcon,
 			name: 'GitHub Actions',
 		},
 		{
-			icon: WorkflowIcon,
+			icon: SwaggerIcon,
 			name: 'Swagger UI',
 		},
 	];
@@ -95,11 +105,11 @@
 <div class="flex flex-col gap-8">
 	{@render title('Key Technologies:')}
 
-	<ul>
+	<ul class="flex flex-wrap gap-1">
 		{#each technologies as technology}
 			{@const Icon = technology.icon}
-			<li class="flex gap-x-3">
-				<Icon class="size-5 text-indigo-600" />
+			<li class="flex items-center gap-3 rounded-lg border-2 border-indigo-500 px-3 py-2">
+				<Icon class="size-8" />
 				<span>{technology.name}</span>
 			</li>
 		{/each}

@@ -1,13 +1,9 @@
 <script lang="ts">
-	import scrumFlowImage2 from '$lib/assets/scrum-flow-2.png';
-	// import ScrumFlowFooter from './ScrumFlowFooter.svelte';
-	// import ScrumFlowList from './ScrumFlowList.svelte';
 	import RoutineHeader from './RoutineHeader.svelte';
 	import ChessBackground from './ChessBackground.svelte';
 	import RoutineFooter from './RoutineFooter.svelte';
-	import ScrumFlowList from '../scrum-flow/ScrumFlowList.svelte';
 	import IphoneFrame from './IphoneFrame.svelte';
-	import RoutineList from './RoutineList.svelte';
+	import RoutineList from './routine-list/RoutineList.svelte';
 </script>
 
 <div class="rounded-lg border">

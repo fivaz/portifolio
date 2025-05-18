@@ -11,7 +11,7 @@
 		TimerIcon,
 		WorkflowIcon,
 	} from '@lucide/svelte';
-	import GithubActionsIcon from './GithubActionsIcon.svelte';
+	import GithubActionsIcon from '../GithubActionsIcon.svelte';
 
 	const features = [
 		{

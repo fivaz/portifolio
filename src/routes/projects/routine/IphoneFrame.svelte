@@ -1,5 +1,5 @@
 <script lang="ts">
-	import routineImage from '$lib/assets/routine-1.png';
+	import routineImage from '$lib/assets/routine-mobile-dark.png';
 </script>
 
 <svg class="mx-auto w-[22.875rem] max-w-full drop-shadow-xl" role="img" viewBox="0 0 366 729">

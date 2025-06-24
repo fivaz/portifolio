@@ -1,10 +1,9 @@
 <script lang="ts">
-	import routineDiagram from '$lib/assets/routine-diagram.png';
-	import routineImage2 from '$lib/assets/routine-2.png';
-	import PhoneFrame from '$lib/PhoneFrame.svelte';
 	import SmallPhoneFrame from '$lib/SmallPhoneFrame.svelte';
-	import PwaIcon from '$lib/icons/PwaIcon.svelte';
+	import routineImage2 from '$lib/assets/routine-2.png';
+	import routineDiagram from '$lib/assets/routine-diagram.png';
 	import LifeTechStackIcons from '$lib/icons/LifeTechStackIcons.svelte';
+	import PwaIcon from '$lib/icons/PwaIcon.svelte';
 </script>
 
 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -34,7 +33,7 @@
 			<p>📈 Performance graphs</p>
 			<p>🛠️ CI/CD with GitHub Actions & Docker</p>
 			<p>🧪 Error monitoring with Sentry</p>
-			<img src={routineDiagram} alt="diagram" />
+			<img alt="diagram" src={routineDiagram} />
 		</div>
 		<div></div>
 

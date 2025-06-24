@@ -1,54 +1,51 @@
 <script lang="ts">
 	import routineDiagram from '$lib/assets/routine-diagram.png';
+	import DockerIcon from '$lib/icons/DockerIcon.svelte';
+	import FirebaseIcon from '$lib/icons/FirebaseIcon.svelte';
+	import GeminiIcon from '$lib/icons/GeminiIcon.svelte';
+	import GitHubActionsIcon from '$lib/icons/GitHubActionsIcon.svelte';
+	import JavaIcon from '$lib/icons/JavaIcon.svelte';
+	import ReactIcon from '$lib/icons/ReactIcon.svelte';
+	import RecraftIcon from '$lib/icons/RecraftIcon.svelte';
+	import SentryIcon from '$lib/icons/SentryIcon.svelte';
+	import SpringIcon from '$lib/icons/SpringIcon.svelte';
+	import SwaggerIcon from '$lib/icons/SwaggerIcon.svelte';
+	import TypescriptIcon from '$lib/icons/TypescriptIcon.svelte';
 	import {
 		ActivityIcon,
 		BrainCircuitIcon,
 		ChartSplineIcon,
 		LucideWorkflow,
-		RefreshCw,
 		RefreshCwIcon,
-		Timer,
 		TimerIcon,
-		WorkflowIcon,
 	} from '@lucide/svelte';
-	import ReactIcon from '$lib/icons/ReactIcon.svelte';
-	import JavaIcon from '$lib/icons/JavaIcon.svelte';
-	import TypescriptIcon from '$lib/icons/TypescriptIcon.svelte';
-	import SpringIcon from '$lib/icons/SpringIcon.svelte';
-	import FirebaseIcon from '$lib/icons/FirebaseIcon.svelte';
-	import GeminiIcon from '$lib/icons/GeminiIcon.svelte';
-	import SentryIcon from '$lib/icons/SentryIcon.svelte';
-	import DockerIcon from '$lib/icons/DockerIcon.svelte';
-	import SwaggerIcon from '$lib/icons/SwaggerIcon.svelte';
-	import GitHubActionsIcon from '$lib/icons/GitHubActionsIcon.svelte';
-	import RecraftIcon from '$lib/icons/RecraftIcon.svelte';
 	import mediumZoom from 'medium-zoom';
 	import { onMount } from 'svelte';
 
 	const features = [
 		{
-			icon: TimerIcon,
 			description: 'Countdown per task',
+			icon: TimerIcon,
 		},
 		{
-			icon: RefreshCwIcon,
 			description: 'Real-time updates (Firestore listeners)',
+			icon: RefreshCwIcon,
 		},
 		{
-			icon: BrainCircuitIcon,
 			description: 'AI-generated task visuals',
+			icon: BrainCircuitIcon,
 		},
 		{
-			icon: ChartSplineIcon,
 			description: 'Performance graphs',
+			icon: ChartSplineIcon,
 		},
 		{
-			icon: LucideWorkflow,
 			description: 'CI/CD with GitHub Actions & Docker',
+			icon: LucideWorkflow,
 		},
 		{
-			icon: ActivityIcon,
 			description: 'Error monitoring with Sentry',
+			icon: ActivityIcon,
 		},
 	];
 
@@ -137,5 +134,5 @@
 
 	{@render title('How I built it:')}
 
-	<img src={routineDiagram} alt="diagram" data-zoomable />
+	<img alt="diagram" data-zoomable src={routineDiagram} />
 </div>

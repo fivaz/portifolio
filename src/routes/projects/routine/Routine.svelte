@@ -1,8 +1,8 @@
 <script lang="ts">
-	import RoutineHeader from './RoutineHeader.svelte';
 	import ChessBackground from './ChessBackground.svelte';
-	import RoutineFooter from './RoutineFooter.svelte';
 	import IphoneFrame from './IphoneFrame.svelte';
+	import RoutineFooter from './RoutineFooter.svelte';
+	import RoutineHeader from './RoutineHeader.svelte';
 	import RoutineList from './RoutineList.svelte';
 </script>
 

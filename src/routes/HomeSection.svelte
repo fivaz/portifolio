@@ -1,8 +1,8 @@
 <script>
-	import GithubIcon from '$lib/icons/GithubIcon.svelte';
 	import Highlight from '$lib/Highlight.svelte';
-	import LinkedinIcon from '$lib/icons/LinkedinIcon.svelte';
 	import LiquidAvatar from '$lib/LiquidAvatar.svelte';
+	import GithubIcon from '$lib/icons/GithubIcon.svelte';
+	import LinkedinIcon from '$lib/icons/LinkedinIcon.svelte';
 	import { ArrowDown } from '@lucide/svelte';
 </script>
 
@@ -21,10 +21,11 @@
 
 			<p>
 				A versatile software engineer with a
-				<Highlight>Bachelor of Science in Business IT</Highlight> and
-				<Highlight>more than 7 years of experience</Highlight> with development, proficient in
-				<Highlight>front-end</Highlight> and <Highlight>back-end</Highlight> technologies, with a sharp
-				focus on <Highlight>user experience</Highlight> and a commitment to producing
+				<Highlight>Bachelor of Science in Business IT</Highlight>,
+				<Highlight>over 1.5 years of professional experience</Highlight> in a company setting, and <Highlight
+					>more than 10 years of hands-on coding practice</Highlight
+				>. Proficient in <Highlight>front-end</Highlight> and <Highlight>back-end</Highlight> technologies,
+				with a sharp focus on <Highlight>user experience</Highlight> and a commitment to producing
 				<Highlight>clean</Highlight>, <Highlight>maintainable code</Highlight>.
 			</p>
 

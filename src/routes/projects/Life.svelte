@@ -1,13 +1,13 @@
 <script lang="ts">
 	import type { Component } from 'svelte';
 
+	import PhoneFrame from '$lib/PhoneFrame.svelte';
+	import lifeDesktopLightImage from '$lib/assets/life-desktop-light.png';
+	import lifeMobileLightImage from '$lib/assets/life-mobile-light.png';
 	import FlashIcon from '$lib/icons/FlashIcon.svelte';
 	import LifeTechStackIcons from '$lib/icons/LifeTechStackIcons.svelte';
 	import OfflineIcon from '$lib/icons/OfflineIcon.svelte';
-	import PhoneFrame from '$lib/PhoneFrame.svelte';
 	import PwaIcon from '$lib/icons/PwaIcon.svelte';
-	import lifeDesktopImage from '$lib/assets/life-desktop.png';
-	import lifeMobileImage from '$lib/assets/life-mobile.png';
 	import { CalendarClock, Goal, PocketKnife } from '@lucide/svelte';
 
 	const features: Array<{ description: string; icon: Component; name: string }> = [
@@ -78,11 +78,16 @@
 				alt="screen of the app desktop"
 				class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
 				loading="lazy"
-				src={lifeDesktopImage}
+				src={lifeDesktopLightImage}
 			/>
 			<div class="right-32 top-20 sm:w-full md:absolute md:w-56 lg:w-72">
 				<PhoneFrame>
-					<img alt="screen of the app mobile" class="w-full" loading="lazy" src={lifeMobileImage} />
+					<img
+						alt="screen of the app mobile"
+						class="w-full"
+						loading="lazy"
+						src={lifeMobileLightImage}
+					/>
 				</PhoneFrame>
 			</div>
 			<div aria-hidden="true" class="relative">

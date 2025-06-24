@@ -1,8 +1,8 @@
 <script>
 	import HomeSection from './HomeSection.svelte';
 	import Navbar from './Navbar.svelte';
-	import Projects from './projects/Projects.svelte';
 	import Resume from './Resume.svelte';
+	import Projects from './projects/Projects.svelte';
 </script>
 
 <div class="relative">

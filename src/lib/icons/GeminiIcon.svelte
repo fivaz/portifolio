@@ -9,23 +9,23 @@
 <svg
 	class={className}
 	id="Layer_1"
+	viewBox="0 0 28 28"
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
-	viewBox="0 0 28 28"
 	><defs
 		><style>
 			.cls-1 {
 				fill: url(#radial-gradient);
 			}
 		</style><radialGradient
-			id="radial-gradient"
 			cx="-576.08"
 			cy="491.7"
 			fx="-576.08"
 			fy="491.7"
-			r="1"
 			gradientTransform="translate(-21336.18 116711.38) rotate(18.68) scale(29.8 -238.74)"
 			gradientUnits="userSpaceOnUse"
+			id="radial-gradient"
+			r="1"
 			><stop offset=".07" stop-color="#9168c0" /><stop offset=".34" stop-color="#5684d1" /><stop
 				offset=".67"
 				stop-color="#1ba1e3"

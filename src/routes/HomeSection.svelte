@@ -36,7 +36,7 @@
 					</a>
 				</Highlight>
 				<Highlight>
-					<a href="https://www.linkedin.com/in/stefane-fivaz-b3898211a" target="_blank">
+					<a href="https://www.linkedin.com/in/stefanefivaz" target="_blank">
 						<LinkedinIcon />
 					</a>
 				</Highlight>

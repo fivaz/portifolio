@@ -2,8 +2,8 @@
 	import type { Component } from 'svelte';
 
 	import PhoneFrame from '$lib/PhoneFrame.svelte';
-	import lifeDesktopLightImage from '$lib/assets/life-desktop-light.png';
-	import lifeMobileLightImage from '$lib/assets/life-mobile-light.png';
+	import lifeDesktopLightImage from '$lib/assets/life/life-desktop-light.png';
+	import lifeMobileLightImage from '$lib/assets/life/life-mobile-light.png';
 	import FlashIcon from '$lib/icons/FlashIcon.svelte';
 	import LifeTechStackIcons from '$lib/icons/LifeTechStackIcons.svelte';
 	import OfflineIcon from '$lib/icons/OfflineIcon.svelte';

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import SmallPhoneFrame from '$lib/SmallPhoneFrame.svelte';
-	import routineImage2 from '$lib/assets/routine-2.png';
-	import routineDiagram from '$lib/assets/routine-diagram.png';
+	import routineImage2 from '$lib/assets/routine/routine-2.png';
+	import routineDiagram from '$lib/assets/routine/routine-diagram.png';
 	import LifeTechStackIcons from '$lib/icons/LifeTechStackIcons.svelte';
 	import PwaIcon from '$lib/icons/PwaIcon.svelte';
 </script>

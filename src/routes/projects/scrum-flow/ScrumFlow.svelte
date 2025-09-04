@@ -1,5 +1,5 @@
 <script lang="ts">
-	import scrumFlowImage2 from '$lib/assets/scrum-flow-2.png';
+	import scrumFlowImage2 from '$lib/assets/scrum-flow/scrum-flow-2.png';
 
 	import ChessBackground from './ChessBackground.svelte';
 	import ScrumFlowFooter from './ScrumFlowFooter.svelte';

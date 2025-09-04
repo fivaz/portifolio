@@ -1,5 +1,5 @@
 <script lang="ts">
-	import routineDiagram from '$lib/assets/routine-diagram.png';
+	import routineDiagram from '$lib/assets/routine/routine-diagram.png';
 	import DockerIcon from '$lib/icons/DockerIcon.svelte';
 	import FirebaseIcon from '$lib/icons/FirebaseIcon.svelte';
 	import GeminiIcon from '$lib/icons/GeminiIcon.svelte';
